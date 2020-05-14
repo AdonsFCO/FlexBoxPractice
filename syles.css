@@ -43,10 +43,6 @@ header .logo a {
   text-decoration: none;
   color: white;
 }
-header nav{
-  width: 50%;
-  background-color: white;
-}
 
 main {
   background: #251605;
