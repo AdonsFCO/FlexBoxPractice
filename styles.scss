@@ -1,26 +1,71 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 .container
 {
+    width: 90%;
+    max-width: 1000px;
     background:#eeeeee;
+    margin:auto;
 
+    /*Flex*/
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
     
 }
 body
 {
-background:#848484;
+background:#DDD1C7;
 
 }
+
 header
 {
-background: #eeeeee;
+    width: 100%;
+    padding:10px;
+    background: #114B5F;
+
+    /*Flex*/
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;    
+
 
 }
+header .logo img {
+	width:50px;
+    vertical-align: top;
+
+}
+header .logo a
+
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 50px;
+    font-size: 50px;
+    text-decoration:none;
+    color :white;
+    
+
+}
+
+
 main
 {
-    background:#747474;
+    background:#251605;
+    color:white;
 
 }
 footer
 {
-background-color: #747474;
+background-color: #114B5F;
 
 }
+/*color reference https://coolors.co/b9d8c2-114b5f-251605-a39171-ddd1c7*/
