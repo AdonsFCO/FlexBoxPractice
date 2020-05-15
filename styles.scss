@@ -99,11 +99,42 @@ main article
     margin-bottom: 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid #A39171;
+    
+    
+}
+main article:nth-child(2)
+{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom:0;
+    
+    
+}
+aside 
+{
+    background-color: #A39171;
+    padding:5px;
+    /*Flex*/
+    flex: 1 1 30%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: flex-start;
+
 
 }
+aside .widget .imagen
+{
+    height: 150px;
+    width: auto;
+    background: #6b4c29;
+    margin: 5px;
+}
+
 
 footer
 {
+    width: 100%;
 background-color: #114B5F;
 
 }
